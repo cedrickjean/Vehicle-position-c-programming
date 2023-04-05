@@ -128,7 +128,7 @@ for (int i = 0; i < latitudes.size(); ++i) {
  Contact me if any help
                                                                                              
  My contact number : +27 67 608 08 31
- Email: mwakanukecedrick@gmail.con                                                                                           
+ Email: mwakanukecedrick@gmail.com                                                                                           
                                                                                              
 
 
