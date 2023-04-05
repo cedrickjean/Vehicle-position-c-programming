@@ -9,7 +9,7 @@ The binary data file "VehiclePositions.dat" in "VehiclePositions_DataFile.zip" c
 Specifics
 
 Use Git to clone the project template to your PC
-Use C language and GCC compiler toolchain (recommend MinGW/MSYS for Windows users)
+Use C++ language and GCC compiler toolchain (recommend MinGW/MSYS for Windows users)
 Your code should be compatible with 32 and 64 bit architectures
 Add your code to solution.c
 Complete makefile with rules to compile and clean
