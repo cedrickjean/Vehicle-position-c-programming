@@ -46,3 +46,13 @@ Position
 
 Latitude	34.544909	32.345544	33.234235	35.195739	31.895839	32.895839	34.115839	32.335839	33.535339	32.234235
 Longitude	-102.100843	-99.123124	-100.214124	-95.348899	-97.789573	-101.789573	-100.225732	-99.992232	-94.792232	-100.222222
+
+Makefile
+
+The CXX variable specifies the C++ compiler to use, while CXXFLAGS and LDFLAGS specify compiler and linker options respectively. SOURCES specifies the source files, OBJECTS specifies the object files to build, and EXECUTABLE specifies the name of the final executable.
+
+The all target builds the executable from the object files, using the specified compiler and linker options. The clean target removes the executable and object files.
+
+The run target adds a new rule to the makefile, which runs the program and times its execution using the time command. The program filename is passed as an argument to the run target.
+
+To use this makefile, simply place it in the same directory as your source files and run make in the command line. This will build the executable. You can then run the program using ./program VehiclePositions.dat and time its execution using make run.
